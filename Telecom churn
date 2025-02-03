@@ -1,0 +1,20 @@
+# Telecom_churn Ganga's
+A csv file named telecom_churn_data was provided.
+The data contains customers data like Outgoing and Incoming calls minutes of usage, mobile internet usage, Recharge amounts, Recharge numbers, etc for four months (i.e. June, July, August, September).
+The objective of this project is to predict the churn in the last (i.e. September) month using the data (features) from the first three (i.e. June, July, August) months.
+High-value customers were filtered.
+A churn column was added based on the provided conditions and this churn column is our target variable.
+Attributes containing data for last (i.e. September) month was removed.
+Missing values were handled.
+Splitted the dataset into train and test sets.
+Handled class imbalance.
+Feature scaling was done.
+In this project a model was built using Logistic Regression model.
+The strong predicter features were selected using RFE and VIF.
+Plotted ROC curve to determine AUC value so that we can check the models performance.
+Founded Optimal cutoff point by calculating accuracy, sensitivity and specificity for various probability cutoffs.
+Again founded cutoff point using Precision-Recall curve.
+After getting the cutoff point, the Accuracy, Sensitivity and Specificity for train set was calculated.
+Made predictions on test set.
+Visualized some plots for predictor variables.
+In this way we found strong predictors of churn.

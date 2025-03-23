@@ -1,0 +1,8 @@
+os
+requests
+pandas
+flask
+textblob
+gtts
+playsound
+streamlit
